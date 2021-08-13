@@ -25,6 +25,7 @@ import { MatFormFieldModule } from "@angular/material/form-field";
 import { MatSnackBarModule } from "@angular/material/snack-bar";
 import { HomeComponent } from './components/views/home/home.component';
 import { CategoriaReadComponent } from './components/views/categoria/categoria-read/categoria-read.component';
+import { CategoriaCreateComponent } from './components/views/categoria/categoria-create/categoria-create.component';
 
 
 @NgModule({
@@ -35,6 +36,7 @@ import { CategoriaReadComponent } from './components/views/categoria/categoria-r
     NavComponent,
     HomeComponent,
     CategoriaReadComponent,
+    CategoriaCreateComponent,
   ],
   imports: [
     BrowserModule,
