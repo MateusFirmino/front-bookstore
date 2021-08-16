@@ -1,31 +1,32 @@
-import { BrowserModule } from "@angular/platform-browser";
-import { NgModule } from "@angular/core";
-import { HttpClientModule } from "@angular/common/http";
+import {BrowserModule} from "@angular/platform-browser";
+import {NgModule} from "@angular/core";
+import {HttpClientModule} from "@angular/common/http";
 
-import { AppRoutingModule } from "./app-routing.module";
-import { AppComponent } from "./app.component";
-import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
-import { HeaderComponent } from "./components/template/header/header.component";
+import {AppRoutingModule} from "./app-routing.module";
+import {AppComponent} from "./app.component";
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import {HeaderComponent} from "./components/template/header/header.component";
 
-import { MatToolbarModule } from "@angular/material/toolbar";
-import { FooterComponent } from "./components/template/footer/footer.component";
-import { NavComponent } from "./components/template/nav/nav.component";
-import { MatSidenavModule } from "@angular/material/sidenav";
-import { MatListModule } from "@angular/material/list";
-import { MatIconModule } from "@angular/material/icon";
+import {MatToolbarModule} from "@angular/material/toolbar";
+import {FooterComponent} from "./components/template/footer/footer.component";
+import {NavComponent} from "./components/template/nav/nav.component";
+import {MatSidenavModule} from "@angular/material/sidenav";
+import {MatListModule} from "@angular/material/list";
+import {MatIconModule} from "@angular/material/icon";
 
-import { MatCardModule } from "@angular/material/card";
-import { MatTableModule } from "@angular/material/table";
-import { MatButtonModule } from "@angular/material/button";
+import {MatCardModule} from "@angular/material/card";
+import {MatTableModule} from "@angular/material/table";
+import {MatButtonModule} from "@angular/material/button";
 import {MatDividerModule} from "@angular/material/divider";
 
-import { FormsModule, ReactiveFormsModule } from "@angular/forms";
-import { MatInputModule } from "@angular/material/input";
-import { MatFormFieldModule } from "@angular/material/form-field";
-import { MatSnackBarModule } from "@angular/material/snack-bar";
-import { HomeComponent } from './components/views/home/home.component';
-import { CategoriaReadComponent } from './components/views/categoria/categoria-read/categoria-read.component';
-import { CategoriaCreateComponent } from './components/views/categoria/categoria-create/categoria-create.component';
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import {MatInputModule} from "@angular/material/input";
+import {MatFormFieldModule} from "@angular/material/form-field";
+import {MatSnackBarModule} from "@angular/material/snack-bar";
+import {HomeComponent} from './components/views/home/home.component';
+import {CategoriaReadComponent} from './components/views/categoria/categoria-read/categoria-read.component';
+import {CategoriaCreateComponent} from './components/views/categoria/categoria-create/categoria-create.component';
+
 
 
 @NgModule({
@@ -60,4 +61,5 @@ import { CategoriaCreateComponent } from './components/views/categoria/categoria
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule {
+}
